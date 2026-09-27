@@ -1,0 +1,12 @@
+# filename              actual_objects  group       expected_warning
+# Actual objects describes what was drawn, not the algorithm's answer.
+empty-0.png              0               supported   NONE
+single-1.png             1               supported   NONE
+uniform-7.png            7               supported   NONE
+uneven-7.png             7               supported   NONE
+shifted-7.png            7               supported   NONE
+noise-7.png              7               supported   NONE
+clipped-2.png            2               guard       CLIPPED_OBJECT
+dark-background.png      0               guard       LARGE_REGION
+touching-2.png           2               limitation  NONE
+low-contrast-3.png       3               limitation  NONE
